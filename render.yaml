@@ -1,0 +1,11 @@
+services:
+  - type: web
+    name: pdf-tracking-app
+    runtime: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: gunicorn app:app
+    envVars:
+      - key: EMAIL_ADDRESS
+        value: thobekam424@gmail.com
+      - key: EMAIL_PASSWORD
+        value: gjeq ijmt kjfy gyvt
