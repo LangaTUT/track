@@ -1,1 +1,1 @@
-web: python 18_Check_Sharing.py
+web: python app.py

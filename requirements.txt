@@ -1,6 +1,7 @@
 Flask
-gunicorn
-requests
-python-dotenv
+smtplib
+email
 PyPDF2
 reportlab
+requests
+python-dotenv
